@@ -1,7 +1,7 @@
 import 'package:rcis_ep_task_four/rcis_ep_task_four.dart' as rcis_ep_task_four;
 import 'dart:io';
 import 'dart:core';
-// Задание 4.1
+// Задание 1
 
 // void main(List<String> arguments) {
 //   stdout.write('Ввeдите число ');
@@ -15,7 +15,7 @@ import 'dart:core';
 //   print(c);
 // }
 
-// //Задание 4.2
+// //Задание 2
 
 // void main() {
 //   List<double> num = [];
@@ -40,7 +40,7 @@ import 'dart:core';
 //   print(c);
 // }
 
-// Задание 4.3
+// Задание 3
 
 // void main() {
 //   List<int> num = [];
@@ -72,7 +72,7 @@ import 'dart:core';
 //   print('$v больше $m в $ot раз');
 // }
 
-// Задание 4.4
+// Задание 4
 
 // void main(List<String> arguments) {
 //   List<String> input = File("numsTask4.txt").readAsLinesSync();
@@ -89,7 +89,7 @@ import 'dart:core';
 //   print('Количество одинаковых рядом стоящих чисел $v');
 // }
 
-// Задание 4.5
+// Задание 5
 
 // void main(List<String> arguments) {
 //   print('Введите число a: ');
@@ -103,18 +103,16 @@ import 'dart:core';
 //   }
 // }
 
-// Задание 4.6
+// Задание 6
 
 // void main(List<String> arguments) {
 //   stdout.write("Введите число: ");
 //   double a = double.parse(stdin.readLineSync()!);
 //   stdout.write("Введите число: ");
 //   double b = double.parse(stdin.readLineSync()!);
-
 //   double i = (-2 - a) * (2 - -3) - (0 - -2) * (-3 - b);
 //   double j = (0 - a) * (-3 - 2) - (2 - 0) * (2 - b);
 //   double c = (2 - a) * (-3 - -3) - (-2 - 2) * (-3 - b);
-
 //   if ((i >= 0 && j >= 0 && c >= 0) || (i <= 0 && j <= 0 && c <= 0)) {
 //     print('Точка принадлежит координатами заштрихованной области');
 //   } else {

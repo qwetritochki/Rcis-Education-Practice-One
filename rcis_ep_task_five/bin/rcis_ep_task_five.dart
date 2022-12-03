@@ -1,7 +1,7 @@
 import 'package:rcis_ep_task_five/rcis_ep_task_five.dart' as rcis_ep_task_five;
 import 'dart:io';
 
-//Задание 5.1
+//Задание 1
 // void main() {
 //   List<String> input = File("numsTask1.txt").readAsLinesSync();
 //   for (var h in input) {
@@ -23,7 +23,7 @@ import 'dart:io';
 //   print(proizved);
 // }
 
-// //Задание 5.2
+// //Задание 2
 
 // void main() {
 //   List<String> input = File("numsTask2.txt").readAsLinesSync();
@@ -45,31 +45,31 @@ import 'dart:io';
 //   var fgh = File('numsTask2.txt').writeAsString(res);
 // }
 
-// //Задание 5.3
+// //Задание 3
 
-void main() {
-  List<String> input = File("numsTask3.txt").readAsLinesSync();
-  for (var h in input) {
-    input = h.split(' ');
-  }
-  List<int> num = input.map(int.parse).toList();
-  int min = num[0];
-  int index = 0;
-  for (int i = 1; i < num.length; i++) {
-    if (num[i] < min) {
-      min = num[i];
-      index = i;
-    }
-  }
-  double avg = 0;
-  for (int i = 0; i < index; i++) {
-    avg += num[i];
-  }
-  avg /= index;
-  print(avg);
-}
+// void main() {
+//   List<String> input = File("numsTask3.txt").readAsLinesSync();
+//   for (var h in input) {
+//     input = h.split(' ');
+//   }
+//   List<int> num = input.map(int.parse).toList();
+//   int min = num[0];
+//   int index = 0;
+//   for (int i = 1; i < num.length; i++) {
+//     if (num[i] < min) {
+//       min = num[i];
+//       index = i;
+//     }
+//   }
+//   double avg = 0;
+//   for (int i = 0; i < index; i++) {
+//     avg += num[i];
+//   }
+//   avg /= index;
+//   print(avg);
+// }
 
-// //Задание 5.4
+// //Задание 4
 
 // void main() {
 //   List<String> input = File("numsTask4.txt").readAsLinesSync();
@@ -94,7 +94,7 @@ void main() {
 //   print('$sum - сумма чисел.');
 // }
 
-// //Задание 5.5
+// //Задание 5
 
 // void main() {
 //   List<String> input = File("numsTask5.txt").readAsLinesSync();
