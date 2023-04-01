@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "/MZbTs7438obSpmxEZsKdli+4EG56/R0tD5iEtJWR2xJX0dgnzTzaeqCR2sJOxxaCdcOZ/o+eZlEwAIymeh1mQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gr612_raivya\\Desktop\\RCIS-Education-practice-Two\\Praktika2.2\\ConsoleApp2\\ConsoleApp2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gr612_raivya\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\gr612_raivya\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\gr612_raivya\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\gr612_raivya\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
+  "logs": []
+}
